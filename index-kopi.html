@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="nadd_ani.css" >
+    <link rel="stylesheet" href="Nadd.css" >
+    <link rel="stylesheet" href="Meny.css" >
+    </head>
+    
+     
+    
+    <!-- her begynner ny code-->
+    <body>
+    <ul>
+    
+  <li><a href="Nadd.html">Hjem</a></li>
+  <li><a href="Nadd_info.html">Info</a></li>
+  <li><a href="nadd_prog.html">Program</a></li>
+     
+  <li style="float:right">
+    <a class="active" href="Nadd_bli.html">Bli Speider</a></li>
+
+        </ul>
+        <!-- her begynner ny code-->
+        <div class="Side1">
+            
+   <div class="in-left">
+       <div class="SLogo">
+            </div>
+       <h9>Nadderud Speidergruppe</h9>
+       <br>
+       <h19> "-der hvor minner skapes"</h19>
+            </div>
+              <div class="TurB">
+                  
+            </div>
+            
+            
+            
+        </div>
+        
+        <!-- her begynner ny code-->
+        
+        <div class="Side2">
+            <div class="Side2_item">
+                <h8>Hva er speideren</h8>
+                <p style="color: white">In years past, many sites would link to the Acrobat Readerer Web site to help people who may not have this software to download it so they could viewobat Reader<br> Web site  Web site to help people who may not have this software to dowso they could viewobat Reader<br> Web site  Web site to help people who may not have this software to download it so they could view </p>
+                
+            </div>
+        </div>
+        
+        
+        <div class="UnderHoved">
+            <a href="Tur1.html">
+            <div class="event" id="event1">
+                <div class="InfoSide2_item_text">
+                <h7>dette er et event</h7>
+                    <p>&nbsp;(dato eller noe sånt)</p>
+                
+                <p3>In years past, many sites would link to the Acrobat Readerer Web site to help people who may not have this software to download it so they could viewobat Reader<br> Web site  Web site to help people who may not have this software to dowso they could viewobat Reader<br> Web site  Web site to help people who may not have this software to download it so they could view <a style="color: blue">les mer...</a></p3>
+                </div>
+                <div class="event_bilde" id="event_bilde1"></div>
+            </div>
+                </a>
+            <a href="Tur2.html">
+            <div class="event" id="event2">
+                <div class="InfoSide2_item_text">
+                <h7>dette er et event</h7>
+                <p>&nbsp;(dato eller noe sånt)</p>
+                <p3>In years past, many sites would link to the Acrobat Reot have this software to download it so they could view <a style="color: blue">les mer...</a></p3>
+                </div>
+                <div class="event_bilde" id="event_bilde2" style="background-image: url(bilde11.jpeg)"></div>
+            </div>
+                </a>
+            <div class="event" id="event3">
+                <div class="InfoSide2_item_text">
+                <h7>dette er et event</h7>
+                <p>&nbsp;(dato eller noe sånt)</p>
+                <p3>In years past, many sites would link to the AcrobatReader<br> Web site  Web site to help people who may not have this software to download it so they could view <a style="color: blue">les mer...</a></p3>
+                </div>
+                <div class="event_bilde" id="event_bilde3" style="background-image: url(bilde2.jpg)"></div>
+            </div>
+            
+        </div>
+        
+    </body>
+    
+    <!-- her begynner ny code-->
+    <script>
+        function foo(){
+       
+       if(window.innerWidth < 550){
+            document.getElementById("event1").style.display = "block";
+            document.getElementById("event_bilde1").style.height = "200px";
+           document.getElementById("event_bilde1").style.width = "100%";
+           document.getElementById("event2").style.display = "block";
+            document.getElementById("event_bilde2").style.height = "200px";
+           document.getElementById("event_bilde2").style.width = "100%";
+           document.getElementById("event3").style.display = "block";
+           document.getElementById("event_bilde3").style.height = "200px";
+           document.getElementById("event_bilde3").style.width = "100%";
+           
+       }else{
+           document.getElementById("event1").style.display = "inline-flex";
+           document.getElementById("event_bilde1").style.width = "400px";
+           document.getElementById("event_bilde1").style.height = "auto";
+           document.getElementById("event2").style.display = "inline-flex";
+           document.getElementById("event_bilde2").style.width = "400px";
+           document.getElementById("event_bilde2").style.height = "auto";
+           document.getElementById("event3").style.display = "inline-flex";
+           document.getElementById("event_bilde3").style.width = "400px";
+           document.getElementById("event_bilde3").style.height = "auto";
+       }
+         }
+     (function(count) {
+   if (count < 100) {
+        // call the function.
+        foo(); 
+
+        // The currently executing function which is an anonymous function.
+        var caller = arguments.callee; 
+    window.setTimeout(function() {
+            // the caller and the count variables are
+            // captured in a closure as they are defined
+            // in the outside scope.
+            caller(count + 1);
+        }, 1000);    
+  }
+})(0);
+  
+    
+    </script>
+</html>
