@@ -291,12 +291,14 @@ p {
 }
 
 .Side1_bli{
+    margin-top: 40px;
     width: 100%;
     background-color: white;
     text-align: center;
 }
 
 .Side1_bli_steg{
+    
     height: auto;
     max-width: 500px;
     
