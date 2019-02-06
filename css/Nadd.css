@@ -7,7 +7,7 @@ body{
 
 .Side1 {
     background-color: skyblue;
-    background-image: url("bilde12.jpg");
+    background-image: url("../bilder/bilde12.jpg");
     height: 600px;
     width: fill;
     padding-top: 10px;
@@ -115,7 +115,7 @@ h8{
     height: 300px;
     width: fill;
     background-color: skyblue;
-    background-image: url(bilde6.jpg);
+    background-image: url(../bilder/bilde6.jpg);
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -203,7 +203,7 @@ p {
     width: 20vmin;
    
     display: block;
-    background-image: url("avatar2.png");
+    background-image: url("../bilder/avatar2.png");
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -228,7 +228,7 @@ p {
     background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-    background-image: url("TurB.png")
+    background-image: url("../bilder/TurB.png")
 }
 
 .Map {
@@ -328,7 +328,7 @@ p {
     position: absolute;
     right: 2%;
     display: ;
-    background-image: url("speider.png");
+    background-image: url("../bilder/speider.png");
    
     
 }
@@ -406,7 +406,7 @@ a{
     margin-left: auto;
     height: auto;
     width: 400px;
-    background-image: url("bilde3.jpeg");
+    background-image: url("../bilder/bilde3.jpeg");
     background-color: crimson;
     background-position: center;
   background-repeat: no-repeat;
