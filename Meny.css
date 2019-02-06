@@ -27,11 +27,11 @@ li a {
   color: white;
     font-size: 20px;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 13px;
   text-decoration: none;
     float: left;
     height: auto;
-    width: inherit
+    width: inherit;
 }
 
 li a:hover:not(.active) {

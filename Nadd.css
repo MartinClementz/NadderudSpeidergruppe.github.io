@@ -298,11 +298,11 @@ p {
 }
 
 .Side1_bli_steg{
-    
+    margin-top: 10px;
     height: auto;
     max-width: 500px;
     
-    background-color: coral;
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -311,7 +311,7 @@ p {
 .Side1_bli_steg_box{
     height: 33.3%;
     width: 100%;
-    background-color: floralwhite;
+    background-color: rgb(240,240,240);
     display: inline-flex;
     padding-right: 50px;
     -moz-box-sizing: border-box;
@@ -345,7 +345,7 @@ p {
     margin-top: 30px;
     height: auto;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: darkseagreen;
     text-align: center;
     padding: 10px;
      -moz-box-sizing: border-box;
