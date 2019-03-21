@@ -1,0 +1,306 @@
+body{
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+    padding-top: 46px;
+}
+
+.TurerO {
+    
+    max-width: 850px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    
+}
+
+.Grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 20px;
+}
+
+img{
+    
+    width: 100%;
+     
+}
+
+.Tur_Ar{
+    
+    height: auto;
+    margin: 10px;
+    
+    
+}
+
+
+@media screen and (max-width: 600px) {
+
+          .Grid {
+    
+    grid-template-columns: auto;
+    
+}
+ 
+}
+
+
+
+
+
+h6{
+    font-family: 'Assistant';
+    font-size: 40px;
+    margin-top: 8px;
+    margin-left: 6px;
+    margin-bottom: 15px;
+}
+
+h6:hover{
+    text-decoration: underline;
+}
+
+p{
+    margin-left: 6px;
+    margin-right: 6px;
+    
+    font-family: 'LFT Etica','Helvetica Neue',Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.info_Tur{
+    background-color: green;
+    width: auto;
+    padding: 3px;
+    margin-left: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+
+
+.main{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    padding-right: 3%;
+         -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.main_logo{
+    float: left;
+    height: 100%;
+    width: 280px;
+    background-color: dimgrey;
+    margin-left: 5%;
+    
+}
+
+.main_link{
+    float: right;
+    height: 100%;
+    width: auto;
+   
+    text-align: center;
+    padding-top: 17px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-right: 5px;
+       -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main_link:hover{
+    background-color: rgb(230,230,230);
+}
+
+p1{
+    font-family: 'Assistant';
+    font-size: 17px;
+    
+}
+
+.Startdiv{
+    height: 500px;
+    max-width: 1200px;
+    background-color: antiquewhite;
+    background-image: url(Bilder/20180801_201550.jpg);
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.Startdiv_Text{
+    background-color: forestgreen;
+    max-width: 700px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    float: left;
+}
+
+.Startdiv_Text1{
+    background-color: forestgreen;
+    max-width: 700px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    float: left;
+}
+.Startdiv_Text1:hover{
+    background-color: red;
+}
+
+
+.Startdiv_Text_box{
+    
+    padding-top: 270px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h5{
+   margin: 0;
+    font-family: "Next", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 45px;
+    font-style: italic;
+    color: white;
+}
+
+h2{
+    font-family: "Next", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 23px;
+    margin-left: 10px;
+}
+
+.topnav {
+    z-index: 2;
+  overflow: hidden;
+  background-color: #333;
+    padding-right: 50px;
+   position: fixed;
+    top:0px;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.topnav a {
+    font-family: "Next", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: rgb(67, 176, 42);
+  
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.logoM{
+    float: left;
+    
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 20px;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+    .topnav{
+        padding-right: 20px;
+    }
+}
+
+
+.infoNede{
+    
+    margin-top: 30px;
+    margin-bottom: -4px;
+    width: 100%;
+   background-color: #333;
+    height: auto;
+    padding: 20px;
+ -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    
+}
+
+.infoNede_indre{
+    display: table;
+    width: auto;
+    
+    margin: 0 auto;
+    
+}
+
+
+.infoNede_box{
+    font-family: "Next", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    height: auto;
+    max-width: 500px;
+    color: white;
+    padding: 10px;
+    padding-right: 40px;
+    float: left;
+    
+}
+
+
+.logoLiten{
+    width: 40px;
+    position: absolute;
+    left: 10px;
+    margin-top: -13px;
+    
+}
+
+
+
+

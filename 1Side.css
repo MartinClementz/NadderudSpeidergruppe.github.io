@@ -1,0 +1,83 @@
+.startbilde{
+    height: 200px;
+    max-width: 1000px;
+    background-color: antiquewhite;
+   padding-right: 17px;
+    padding-left: 17px;
+    text-align: center;
+    
+    background-image: url(Bilder/20180801_201550.jpg);
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.startbilde_textbox{
+    background-color: red;
+    display: inline-block;
+    padding: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 40px;
+    
+}
+
+
+.TextB_out{
+    height: auto;
+    max-width: 1000px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TextB{
+    max-width: 700px;
+    background-color: white;
+    height: auto;
+    
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    padding-left: 6%;
+    padding-top: 40px;
+    padding-right: 4%;
+    margin-bottom: 30px;
+}
+
+h8{
+    font-family: 'Assistant';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p2{
+    font-family: 'LFT Etica','Helvetica Neue',Arial,sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+.bilder{
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.innhold{
+    
+    display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+
+        .bilder{
+   
+    margin-left: 0px;
+}  
+ 
+}
